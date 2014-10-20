@@ -1,31 +1,12 @@
-var gulp 	= require('gulp');
-var stylus 	= require('gulp-stylus');
-var nib 	= require('nib');
+/*
+  gulpfile.js
+  ===========
+  Rather than manage one giant configuration file responsible
+  for creating multiple tasks, each task has been broken out into
+  its own file in gulp/tasks. Any file in that folder gets automatically
+  required by the loop in ./gulp/index.js (required below).
 
+  To add a new task, simply add a new task file to gulp/tasks.
+*/
 
-gulp.task('stylus', function () {
-	var location;
-	gulp.src('./web/**/main.styl', {base: './'})
-		.pipe(stylus({
-			use: [nib()],
-			sourcemap: {inline: true}
-		}))
-		.pipe(gulp.dest('./'));
-});
-
-gulp.task('stylus-buld', function () {
-	var location;
-	gulp.src('./web/**/main.styl', {base: './'})
-		.pipe(stylus({
-			use: [nib()]
-		}))
-		.pipe(gulp.dest('./'));
-});
-
-gulp.task('watch', function() {
-	gulp.watch('./web/**/*.styl', ['stylus']);
-});
-
-gulp.task('default', ['stylus', 'watch']);
-
-gulp.task('build', ['stylus-build']);
+require('./gulp');
