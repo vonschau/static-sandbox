@@ -9,7 +9,7 @@ require.config({
 		'lodash': 'lodash-amd/compat',
 		'jquery': [
 			'//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min',
-			'jquery/dist/jquery'
+			'jquery/dist/jquery.min'
 		]
 	},
 	priority:['jquery']
