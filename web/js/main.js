@@ -7,10 +7,7 @@ require.config({
 		'app': '../js/app',
 		'domready': 'requirejs-domready/domReady',
 		'lodash': 'lodash-amd/compat',
-		'jquery': [
-			'//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min',
-			'jquery/dist/jquery.min'
-		]
+		'jquery': 'jquery/dist/jquery.min'
 	},
 	priority:['jquery']
 });
