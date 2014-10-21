@@ -15,15 +15,15 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "1.11.1"
-  },
-  "devDependencies": {
-    "bourbon": "~4.0.2",
-    "neat": "~1.7.0",
-    "normalize-scss": "~3.0.1",
+    "jquery": "1.11.1",
     "requirejs": "~2.1.15",
     "requirejs-plugins": "~1.0.2",
     "lodash-amd": "~2.4.1",
     "requirejs-domready": "~2.0.1"
+  },
+  "devDependencies": {
+    "bourbon": "~4.0.2",
+    "neat": "~1.7.0",
+    "normalize-scss": "~3.0.1"
   }
 }
