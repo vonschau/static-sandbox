@@ -1,6 +1,8 @@
 SYMBIO Static sandbox
 =====================
 
+All paths bellow can be changed in `./gulp/src.js`
+
 Getting started
 ---------------
 
@@ -58,6 +60,11 @@ require({
 ```
 
 Or look on `debounce()` use in app.js.
+
+Images
+------
+
+All images should come into `./web/images/src`. Gulp tasks will optimize them...
 
 ToDo
 ----
