@@ -17,13 +17,13 @@ module.exports = {
     // }
 
     // Markup
-    html: "./web/static/*.html",
-    twig: "./src/Magnesia/DefaultBundle/Resources/views/Default/*.html.twig",
+    html: "web/static/*.html",
+    twig: "src/Magnesia/DefaultBundle/Resources/views/Default/*.html.twig",
 
     // JavaScript
-	js: "./web/js/*.js",
-    jsApp: "./web/js/app/*.js",
-    folderJS: "./web/js/",
+	js: "web/js/*.js",
+    jsApp: "web/js/app/*.js",
+    folderJS: "web/js/",
 
     // RequireJS
     requirejsBaseUrl: "./web/components",
@@ -33,12 +33,12 @@ module.exports = {
     requirejsPatsRequireLib: "../components/requirejs/require",
 
     // Stylesheet
-	sass: "./web/sass/*",
-    css: "./web/css/*.css",
-    folderCSS: "./web/css/",
+	sass: "web/sass/*",
+    css: "web/css/*.css",
+    folderCSS: "web/css/",
 
     // Images
-	imagesSrc: "./web/images/src/*",
-    folderImages: "./web/images"
+	imagesSrc: "web/images/src/*",
+    folderImages: "web/images"
 
 };

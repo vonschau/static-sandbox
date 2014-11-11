@@ -1,5 +1,4 @@
 node_modules
-*.styl
 /web/bundles/
 /web/t/*
 /web/tr/*
